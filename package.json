@@ -1,0 +1,17 @@
+{
+  "devDependencies": {
+    "tsx": "^4.16.2",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "@types/jsdom": "^21.1.7",
+    "axios": "^1.7.2",
+    "jsdom": "^24.1.1",
+    "puppeteer": "^22.14.0"
+  },
+  "scripts": {
+    "start": "tsx src/albert.ts",
+    "build": "tsc"
+  },
+  "type": "module"
+}
